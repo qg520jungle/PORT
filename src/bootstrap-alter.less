@@ -1,0 +1,206 @@
+// out: null
+textarea {
+  ::-webkit-scrollbar {
+    width: 20px;
+    background-color: rgb(225, 225, 225);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(205, 205, 205);
+  }
+}
+.form-control {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.carousel-indicators li {
+  background-color: #666;
+  border-color: #666;
+}
+.carousel-indicators .active {
+  background-color: @main;
+  border-color: @main;
+}
+.nav-tabs.nav-justified > li > a,
+.nav-tabs.nav-justified > li > a:hover,
+.nav-tabs.nav-justified > li > a:focus {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.nav-tabs.nav-justified > li > a:hover,
+.nav-tabs.nav-justified > li > a:focus {
+  color: #000;
+  font-weight: bold;
+}
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs.nav-justified > .active > a:focus {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #ddd;
+}
+.nav-tabs.nav-justified > li {
+  display: table-cell;
+  width: 1%;
+}
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs.nav-justified > .active > a:focus {
+  .bg {
+    display: block;
+  }
+}
+.table {
+  thead{
+    background-color: #9dc8d8;
+    color:#fff;
+    th {
+    font-weight: 400;
+    }
+  }
+  th {
+    text-align: center;
+   /* padding: 18px 8px!important;*/
+  }
+  td {
+    /*padding: 18px 8px!important;*/
+  }
+  caption {
+    color: #999;
+    font-size: 16px;
+    a {
+      font-size: 14px;
+      color: ;
+      .glyphicon-menu-right {
+        margin-left: 8px;
+      }
+    }
+  }
+}
+.table-bordered {
+    border: 1px solid #fff;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #fff;
+}
+.table-bordered-b {
+    border: 1px solid #333;
+}
+.table-bordered-b > thead > tr > th, .table-bordered-b > tbody > tr > th, .table-bordered-b > tfoot > tr > th, .table-bordered-b > thead > tr > td, .table-bordered-b > tbody > tr > td, .table-bordered-b > tfoot > tr > td {
+    border: 1px solid #333;
+}
+.table-bordered-bb {
+     border: 3px double #333;
+}
+.table-bordered-bb > thead > tr > th, .table-bordered-bb > tbody > tr > th, .table-bordered-bb > tfoot > tr > th, .table-bordered-bb > thead > tr > td, .table-bordered-bb > tbody > tr > td, .table-bordered-bb > tfoot > tr > td {
+     border: 1px solid #333;
+}
+.table-bordered-g {
+     border: 1px solid #ccc;
+}
+.table-bordered-g > thead > tr > th, .table-bordered-g > tbody > tr > th, .table-bordered-g > tfoot > tr > th, .table-bordered-g > thead > tr > td, .table-bordered-g > tbody > tr > td, .table-bordered-g > tfoot > tr > td {
+     border: 1px solid #ccc;
+}
+
+.panel {
+  border-radius: 0;
+}
+.panel-footer{
+  background: #fff;
+  border-top: 1px dashed #e2e2e2;
+  .more{
+    display: block;
+    padding: 12px;
+    text-align: right;
+    color: #999;
+  }
+}
+.modal-dialog{
+  width: 1000px;
+}
+.modal-m{
+  width: 600px;
+}
+.modal-s{
+  width: 400px;
+}
+.modal-hg{
+  width: 1100px;
+}
+.modal-body{
+  padding: 0;
+}
+.modal-content{
+
+  .modal-header{
+    background-color: #e8e8e8;
+    border-radius: 6px 6px 0 0;
+    padding: 0;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    color: #19316d;
+    border-bottom: 1px solid @side-a;
+    position: relative;
+    h4{
+      color: #19316d;
+      font-size: 16px;
+      padding-top: 10px;
+    }
+    .u-close{
+      position: absolute;
+      right: -46px;
+      top: -32px;
+      background: url(./img/close.png)  no-repeat;
+      display: inline-block;
+      width: 36px;
+      height: 36px;
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+      outline: none;
+    }
+    .close:hover, .close:focus {
+      filter: alpha(opacity=80);
+      opacity: .8;
+    }
+    .u-xx{
+      font-size: 28px;
+      font-weight: 100;
+      line-height: 30px;
+      height: 34px;
+      display: inline-block;
+      vertical-align: text-bottom;
+      text-shadow: initial;
+      color: #fff;
+    }
+  }
+}
+.bootstrap-table {
+  position: relative;
+  top: -51px;
+  z-index: 2;
+}
+.fixed-table-toolbar {
+    height: 30px;
+    margin-bottom: 15px;
+    width: 100%;
+    position: relative
+}
+.pull-right {
+  margin-right: 8px;
+}
+@media (min-width: 768px){
+  .modal-dialog {
+    margin-top: 100px;
+  }
+}
+.modal-dialog {
+    margin-top: 100px;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    text-align: center;
+    vertical-align: middle;
+}

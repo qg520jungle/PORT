@@ -1,0 +1,143 @@
+// out: null
+.btn{
+  border-radius: 3px;
+  font-size: 12px;
+  &.btn-s{
+    padding: 3px 0px;
+    border-radius: 3px;
+  }
+}
+.btn-s (@c, @bc) {
+  color: @c;
+  background-color: @bc;
+  border-color: @bc;
+}
+.btn-app {
+  .btn-s(#999,@main);
+}
+.btn-black {
+  .btn-s(#fff,#999);
+  &:hover {
+    color: #fff;
+  }
+  &:focus {
+    color: #fff;
+  }
+}
+.btn-img{
+  color: #bbb;
+  background-color: #fff;
+  border-color: #bbb;
+  padding: 4px 0;
+  width: 45px;
+  text-align: center;
+  &:hover {
+    color: #26b4d3;
+    border-color:#26b4d3;
+    .u-icon-camera{
+      background-position: -44px -117px;
+    }
+    .u-icon-plus{
+      background-position: -69px -118px;
+    }
+  }
+  &:focus {
+    color: #26b4d3;
+    border-color:#26b4d3;
+     .u-icon-camera{
+      background-position: -44px -117px;
+    }
+    .u-icon-plus{
+      background-position: -69px -118px;
+    }
+  }
+
+}
+.btn-grey{
+  .btn-s(#fff,#333);
+  &:hover {
+    color: #fff;
+  }
+  &:focus {
+    color: #fff;
+  }
+}
+.btn-main{
+  .btn-s(#fff,@main);
+    &:hover {
+        color:#fff;
+        background-color:  @main-a;
+    }
+    &:focus {
+          color:#fff;
+          background-color:  @main-a;
+      }
+}
+.btn-white{
+  color: @main;
+  background-color:#fff;
+  border-color: @main;
+  &.act{
+    .btn-s(#fff,@main);
+    &:hover {
+        color:#fff;
+        background-color:  @main;
+    }
+  }
+ &:hover {
+      color:#fff;
+      background-color:  @main;
+  }
+}
+.btn-pop{
+  padding: 1px 15px;
+  vertical-align: top;
+  margin-left: 20px;
+}
+.btn-small{
+  padding: 3px 12px;
+  vertical-align: top;
+  margin-left: 20px;
+}
+
+.btn-ss{
+  padding: 3px 12px;
+  vertical-align: top;
+}
+.btn-down{
+  .btn-s(#fff,#21a0eb);
+    &:hover {
+      .btn-s(#fff,#337AB7);
+    }
+}
+.btn-psearch{
+  margin-left: 40px;
+}
+.u-btn{
+  display: inline-block;
+  text-align: center;
+}
+.input-group-addon {
+    padding: 3px 12px;
+}
+.btn-s{
+  width: 76px;
+}
+.btn-normal{
+  width: 80px;
+}
+.btn-p{
+  width:180px;
+}
+.btn-m {
+  width: 240px;
+}
+.btn-l {
+  width: 400px;
+}
+.btn-full{
+  font-size: 15px;
+  width: 100%;
+}
+
+
